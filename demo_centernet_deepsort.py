@@ -33,7 +33,7 @@ opt.vis_thresh = 0.5
 opt.input_type = 'vid'   # for video, 'vid',  for webcam, 'webcam', for ip camera, 'ipcam'
 
 #------------------------------
-# for video
+# the video path
 opt.vid_path = 'video/test.mp4'  #
 #------------------------------
 # for webcam  (webcam device index is required)
@@ -69,7 +69,6 @@ def bbox_to_xywh_cls_conf(bbox):
     else:
 
         return None, None
-
 
 class Detector(object):
     def __init__(self, opt):
@@ -110,7 +109,6 @@ class Detector(object):
             fourcc = cv2.VideoWriter_fourcc(*'MJPG')
             self.output = cv2.VideoWriter("demo1.avi", fourcc, 20, (self.im_width, self.im_height))
         #return self.vdo.isOpened()
-
 
 
     def detect(self):
