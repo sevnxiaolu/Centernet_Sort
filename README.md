@@ -29,7 +29,9 @@ python demo_centernet_deepsort.py
 | ------------- | ------------- | ------------- |
 | ctdet_coco_dla_2x | 77.30 | 55.13 |
 | ctdet_coco_resdcn18 | 68.24 | 44.9 | 
-| *yolov3 416 | 66.99 | 49.02 |  
+| *yolov3 416 | 66.99 | 49.02 |     
+
+
 ###说明
 此项目默认已经完成centernet学习，相较于yolo集成deepsort实现目标检测与跟踪在性能上有一定提升     
 # Reference
