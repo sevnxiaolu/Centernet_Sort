@@ -8,9 +8,9 @@
       "program": "demo.py",
       "console":"integratedTerminal",
       "cwd": "${fileDirname}",
-      "args": ["ddd","--demo","E:/centernet/CenterNet/images","--load_model","../model/ddd_3dop.pth","--arch","dla_34"],
-
+      "args": ["ddd","--demo","E:/centernet/CenterNet/images","--load_model","../model/ddd_3dop.pth","--arch","dla_34"]
     }
   ]
 }
+
 
